@@ -4,7 +4,7 @@ pipeline{
         stage("Build"){
             agent {dockerfile true}
             steps{
-                sh echo "Hello World"
+                  echo "Hello World"
             }
         }
     }
